@@ -1,0 +1,226 @@
+.background-container {
+  background: blueviolet;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.left-sub_container {
+  flex-basis: 50%;
+  background-color: aqua;
+  border-right: 4px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-sub_container__top {
+  height: 50vh;
+  background: rgb(160, 76, 238);
+  width: 50vw;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+}
+
+.left-sub_container__bottom {
+  height: 50vh;
+  background: beige;
+  width: 50vw;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+  width: 80%;
+}
+
+.error {
+  width: 70%;
+  height: 50px;
+  background-color: #893282;
+  margin-top: 20px;
+  border-radius: 56px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  /* margin-top: 50px; */
+}
+
+.field {
+  height: 50px;
+  width: 30%;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 20px 40px 0px;
+  color: rgb(129, 132, 140);
+  font-weight: 300;
+  letter-spacing: 0.16px;
+  padding: 0px 32px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-radius: 56px;
+}
+
+input {
+  line-height: normal;
+}
+
+.submit {
+  border-color: #d6518f;
+  text-transform: uppercase;
+  height: 50px;
+  width: 20%;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.1071em;
+  overflow-wrap: break-word;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 20px 40px 0px;
+  background-color: #d6518f;
+  border-radius: 999em;
+  transition: all 0.3s ease-in-out 0s;
+  margin-left: 10px;
+}
+
+.submit_2 {
+  border-color: #d6518f;
+  text-transform: uppercase;
+  height: 50px;
+  width: 20%;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.1071em;
+  overflow-wrap: break-word;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 20px 40px 0px;
+  background-color: #d6518f;
+  border-radius: 999em;
+  transition: all 0.3s ease-in-out 0s;
+  margin-left: 10px;
+}
+
+.submit:hover, .submit_2:hover {
+  background: #fff;
+  color: #000;
+}
+
+.right-sub_container {
+  flex-basis: 50%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.right-sub_container > div > span {
+  width: 50%;
+  height: 5em;
+  margin: 2em auto;
+  background-color:rgb(51, 93, 93);
+  padding: 10px;
+  color: #fff;
+}
+
+.right-sub_container > div:first-child {
+  margin-bottom: 20px;
+}
+
+.page {
+  width: 80%;
+  height: 70%;
+  background: beige;
+  padding: 15px;
+  overflow: scroll;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 20px 40px 0px;
+  border-style: none;
+  border-color: initial;
+  border-radius: 5px;
+}
+
+.collection {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1%;
+}
+
+.collection:nth-child(even) {
+  background: rgb(51, 93, 93);
+  color: #fff;
+}
+
+.collection-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.collection div {
+  margin: 3%;
+}
+
+.lds-hourglass {
+  display: flex;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 50vh;
+}
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 6px;
+  box-sizing: border-box;
+  border: 26px solid #893282;
+  border-color: #893282 transparent #893282 transparent;
+  animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
+}
