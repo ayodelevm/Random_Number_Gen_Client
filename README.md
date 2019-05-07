@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Technologies Used
+* NodeJS
+* Express
+* Postgres
+* Babel 
+* Mocha
+* Supertest
+* Should
+
+## Installation
+1.  Git clone this repository `https://github.com/ayodelevm/random_number_gen_client.git`
+2.  Change your directory `population_manager`
+3.  Install all dependencies `yarn`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,32 +51,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## API Endpoint
+* The Api's are hosted [here](https://phone-number-apis.herokuapp.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribute to the project
+To contribute to this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the project, clone your fork, and configure the remotes
+2. If you cloned a while ago, get the latest changes from upstream
+3. Create a new topic branch (off the main project development branch) to contain your feature, change, or fix
+4. Commit your changes in logical chunks
+5. Locally merge (or rebase) the upstream development branch into your topic branch
+6. Push your topic branch up to your fork
+7. Open a Pull Request to the client-develop branch with a clear title and description
 
-### Code Splitting
+**IMPORTANT:** This guideline for `contributing to the project` was adapted from necolas  issue-guidelines. Navigate to **[necolas/issue-guidelines](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md)** for full details and step by step guidelines on how to contribute to this project.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## License
+This project is licensed under the MIT license. Click **[here](https://github.com/ayodelevm/random_number_gen_client/blob/master/LICENSE)** to read the license in full
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
