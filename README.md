@@ -1,17 +1,14 @@
+# random_number_gen_client
+Frontend code for a random phone number generator
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Technologies Used
 * NodeJS
-* Express
-* Postgres
-* Babel 
-* Mocha
-* Supertest
-* Should
+* React
 
 ## Installation
 1.  Git clone this repository `https://github.com/ayodelevm/random_number_gen_client.git`
-2.  Change your directory `population_manager`
+2.  Change your directory `random_number_gen_client`
 3.  Install all dependencies `yarn`
 
 ## Available Scripts
